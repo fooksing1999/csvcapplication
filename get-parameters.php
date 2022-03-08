@@ -19,10 +19,10 @@
         $values[$p['Name']] = $p['Value'];
     }
 
-    $ep = $values['/example/dbURL'];
-    $un = $values['/example/dbUsername'];
-    $pw = $values['/example/dbPassword'];
-    $db = $values['/example/dbName'];
+    $ep = $values['/example/endpoint'];
+    $un = $values['/example/username'];
+    $pw = $values['/example/password'];
+    $db = $values['/example/database'];
   }
   catch (Exception $e) {
     $ep = '';
