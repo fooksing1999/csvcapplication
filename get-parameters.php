@@ -19,10 +19,10 @@
         $values[$p['Name']] = $p['Value'];
     }
 
-    $ep = $values['/example/endpoint'];
-    $un = $values['/example/username'];
-    $pw = $values['/example/password'];
-    $db = $values['/example/database'];
+    $ep = $values['csvcphpdatabase.c1u8cdwuufov.us-east-1.rds.amazonaws.com'];
+    $un = $values['admin'];
+    $pw = $values['csvc123456'];
+    $db = $values['csvcDB'];
   }
   catch (Exception $e) {
     $ep = '';
